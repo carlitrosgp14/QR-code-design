@@ -2,16 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #d5e1ef;
 }
 
 .card-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    width: 320px;
-    height: 499px;
+    padding: 1rem;
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -25,10 +27,8 @@
 }
 
 .card-container img {
-    padding: 16px 16px 24px 16px;
-    border-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
 }
 
 /* Add some padding inside the card container */
@@ -36,8 +36,6 @@
     text-align: center;
     font-family: "outline", sans-serif;
     width: 288px;
-    height: 131px;
-    padding: 0px 16px 40px;
 }
 
 .inner-container h4 {
@@ -72,7 +70,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         background-color: #d5e1ef;
     }
