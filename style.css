@@ -26,6 +26,13 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* We want to really hide this h1 since the figma file does not include it, but leave it for SEO improvement  */
+h1 {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+}
+
 .card-container img {
     border-radius: 15px;
     margin-bottom: 2rem;
